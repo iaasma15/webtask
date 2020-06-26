@@ -1,0 +1,67 @@
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+main > .container {
+  padding: 60px 15px 0;
+}
+
+/*.footer {
+  background-color: #f5f5f5;
+}*/
+.nav-text{
+  height: 80px;
+  font-size: 19px;
+}
+
+.footer > .container {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+code {
+  font-size: 80%;
+}
+.droplink{
+  background-color: #333a40;
+  border: none;
+  
+}
+.droplink, .droplink:active, .droplink:focus{
+  color: white;
+  background-color: #333a40;
+  cursor: pointer;
+}
+
+#my_histogram{
+  display: flex;
+  justify-content: center;
+  padding: 60px 60px 0 60px;
+}
+
+.btn-search, .btn-search:hover, .btn-search:active, .btn-search:focus {
+  color: white;
+  background-color: #6b757d;
+  border-color: #6b757d;
+  height: 45px;
+  cursor: pointer;
+  padding: 6px 18px;
+  font-size:1em ;
+}
+
+.text{
+  text-align: center;
+  font-size: 1.5rem;
+
+}
+.btn-button{
+  width: 100px;
+  height: 45px;
+  font-size: 1.25rem;
+}
+.form-inline .input-search {
+  width: 270px ;
+  height: 45px;
+}
+
+
+#my_histogram > svg {background-color:#f8f9fa}
